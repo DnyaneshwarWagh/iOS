@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1960ADE62CC26AAC1059B52F /* Pods_grokHTMLAndDownloads_htmlAndDownloads_4_0Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 951BF91C8A60915FDD56D39D /* Pods_grokHTMLAndDownloads_htmlAndDownloads_4_0Tests.framework */; };
+		33D0F6CE58D559E4FC696611 /* Pods_grokHTMLAndDownloads_htmlAndDownloads_4_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DCFD09D8405CAF229F45BA2 /* Pods_grokHTMLAndDownloads_htmlAndDownloads_4_0.framework */; };
+		55180A3F9E7C84D78F59AA6A /* Pods_grokHTMLAndDownloads_htmlAndDownloads_4_0UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651CA7892028E4F5560D2028 /* Pods_grokHTMLAndDownloads_htmlAndDownloads_4_0UITests.framework */; };
+		CD6EBACE1FC07C9E003D8B3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6EBACD1FC07C9E003D8B3F /* AppDelegate.swift */; };
+		CD6EBAD01FC07C9E003D8B3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6EBACF1FC07C9E003D8B3F /* ViewController.swift */; };
+		CD6EBAD31FC07C9E003D8B3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6EBAD11FC07C9E003D8B3F /* Main.storyboard */; };
+		CD6EBAD51FC07C9E003D8B3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6EBAD41FC07C9E003D8B3F /* Assets.xcassets */; };
+		CD6EBAD81FC07C9E003D8B3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6EBAD61FC07C9E003D8B3F /* LaunchScreen.storyboard */; };
+		CD6EBAE31FC07C9E003D8B3F /* grokHTMLAndDownloads_htmlAndDownloads_4_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6EBAE21FC07C9E003D8B3F /* grokHTMLAndDownloads_htmlAndDownloads_4_0Tests.swift */; };
+		CD6EBAEE1FC07C9E003D8B3F /* grokHTMLAndDownloads_htmlAndDownloads_4_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6EBAED1FC07C9E003D8B3F /* grokHTMLAndDownloads_htmlAndDownloads_4_0UITests.swift */; };
+		CD6EBAFC1FC07E4F003D8B3F /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6EBAFB1FC07E4F003D8B3F /* Chart.swift */; };
+		CD6EBAFE1FC07E5B003D8B3F /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6EBAFD1FC07E5B003D8B3F /* DataController.swift */; };
+		CD6EBB001FC0976C003D8B3F /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6EBAFF1FC0976C003D8B3F /* MasterViewController.swift */; };
+		CD6EBB021FC0A19A003D8B3F /* ChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6EBB011FC0A19A003D8B3F /* ChartCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD6EBADF1FC07C9E003D8B3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD6EBAC21FC07C9D003D8B3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6EBAC91FC07C9E003D8B3F;
+			remoteInfo = "grokHTMLAndDownloads-htmlAndDownloads_4.0";
+		};
+		CD6EBAEA1FC07C9E003D8B3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD6EBAC21FC07C9D003D8B3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6EBAC91FC07C9E003D8B3F;
+			remoteInfo = "grokHTMLAndDownloads-htmlAndDownloads_4.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		400A08A5A9F0CC1390767F43 /* Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0.release.xcconfig"; path = "Pods/Target Support Files/Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0/Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0.release.xcconfig"; sourceTree = "<group>"; };
+		41CCAB667ABA3811A8C02E46 /* Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0UITests/Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0UITests.release.xcconfig"; sourceTree = "<group>"; };
+		49B75769718374C702585FE0 /* Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0Tests/Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C4BD564849A7886E57CE1E3 /* Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0UITests/Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4DCFD09D8405CAF229F45BA2 /* Pods_grokHTMLAndDownloads_htmlAndDownloads_4_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_grokHTMLAndDownloads_htmlAndDownloads_4_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		651CA7892028E4F5560D2028 /* Pods_grokHTMLAndDownloads_htmlAndDownloads_4_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_grokHTMLAndDownloads_htmlAndDownloads_4_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8190D95210430245C1B2A754 /* Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0Tests/Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0Tests.release.xcconfig"; sourceTree = "<group>"; };
+		951BF91C8A60915FDD56D39D /* Pods_grokHTMLAndDownloads_htmlAndDownloads_4_0Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_grokHTMLAndDownloads_htmlAndDownloads_4_0Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6EBACA1FC07C9E003D8B3F /* grokHTMLAndDownloads-htmlAndDownloads_4.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "grokHTMLAndDownloads-htmlAndDownloads_4.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6EBACD1FC07C9E003D8B3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD6EBACF1FC07C9E003D8B3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD6EBAD21FC07C9E003D8B3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD6EBAD41FC07C9E003D8B3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD6EBAD71FC07C9E003D8B3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD6EBAD91FC07C9E003D8B3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6EBADE1FC07C9E003D8B3F /* grokHTMLAndDownloads-htmlAndDownloads_4.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "grokHTMLAndDownloads-htmlAndDownloads_4.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6EBAE21FC07C9E003D8B3F /* grokHTMLAndDownloads_htmlAndDownloads_4_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grokHTMLAndDownloads_htmlAndDownloads_4_0Tests.swift; sourceTree = "<group>"; };
+		CD6EBAE41FC07C9E003D8B3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6EBAE91FC07C9E003D8B3F /* grokHTMLAndDownloads-htmlAndDownloads_4.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "grokHTMLAndDownloads-htmlAndDownloads_4.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6EBAED1FC07C9E003D8B3F /* grokHTMLAndDownloads_htmlAndDownloads_4_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grokHTMLAndDownloads_htmlAndDownloads_4_0UITests.swift; sourceTree = "<group>"; };
+		CD6EBAEF1FC07C9E003D8B3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6EBAFB1FC07E4F003D8B3F /* Chart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chart.swift; sourceTree = "<group>"; };
+		CD6EBAFD1FC07E5B003D8B3F /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		CD6EBAFF1FC0976C003D8B3F /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		CD6EBB011FC0A19A003D8B3F /* ChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartCell.swift; sourceTree = "<group>"; };
+		D6FE0A18D37DC00F6757168D /* Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0/Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD6EBAC71FC07C9E003D8B3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D0F6CE58D559E4FC696611 /* Pods_grokHTMLAndDownloads_htmlAndDownloads_4_0.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6EBADB1FC07C9E003D8B3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1960ADE62CC26AAC1059B52F /* Pods_grokHTMLAndDownloads_htmlAndDownloads_4_0Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6EBAE61FC07C9E003D8B3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55180A3F9E7C84D78F59AA6A /* Pods_grokHTMLAndDownloads_htmlAndDownloads_4_0UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BC07C5C99DFED7D829FFA25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DCFD09D8405CAF229F45BA2 /* Pods_grokHTMLAndDownloads_htmlAndDownloads_4_0.framework */,
+				951BF91C8A60915FDD56D39D /* Pods_grokHTMLAndDownloads_htmlAndDownloads_4_0Tests.framework */,
+				651CA7892028E4F5560D2028 /* Pods_grokHTMLAndDownloads_htmlAndDownloads_4_0UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD6EBAC11FC07C9D003D8B3F = {
+			isa = PBXGroup;
+			children = (
+				CD6EBACC1FC07C9E003D8B3F /* grokHTMLAndDownloads-htmlAndDownloads_4.0 */,
+				CD6EBAE11FC07C9E003D8B3F /* grokHTMLAndDownloads-htmlAndDownloads_4.0Tests */,
+				CD6EBAEC1FC07C9E003D8B3F /* grokHTMLAndDownloads-htmlAndDownloads_4.0UITests */,
+				CD6EBACB1FC07C9E003D8B3F /* Products */,
+				DBD5F84FA325EF92F663AB1D /* Pods */,
+				6BC07C5C99DFED7D829FFA25 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD6EBACB1FC07C9E003D8B3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD6EBACA1FC07C9E003D8B3F /* grokHTMLAndDownloads-htmlAndDownloads_4.0.app */,
+				CD6EBADE1FC07C9E003D8B3F /* grokHTMLAndDownloads-htmlAndDownloads_4.0Tests.xctest */,
+				CD6EBAE91FC07C9E003D8B3F /* grokHTMLAndDownloads-htmlAndDownloads_4.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD6EBACC1FC07C9E003D8B3F /* grokHTMLAndDownloads-htmlAndDownloads_4.0 */ = {
+			isa = PBXGroup;
+			children = (
+				CD6EBAFF1FC0976C003D8B3F /* MasterViewController.swift */,
+				CD6EBAFD1FC07E5B003D8B3F /* DataController.swift */,
+				CD6EBAFB1FC07E4F003D8B3F /* Chart.swift */,
+				CD6EBACD1FC07C9E003D8B3F /* AppDelegate.swift */,
+				CD6EBACF1FC07C9E003D8B3F /* ViewController.swift */,
+				CD6EBAD11FC07C9E003D8B3F /* Main.storyboard */,
+				CD6EBAD41FC07C9E003D8B3F /* Assets.xcassets */,
+				CD6EBAD61FC07C9E003D8B3F /* LaunchScreen.storyboard */,
+				CD6EBAD91FC07C9E003D8B3F /* Info.plist */,
+				CD6EBB011FC0A19A003D8B3F /* ChartCell.swift */,
+			);
+			path = "grokHTMLAndDownloads-htmlAndDownloads_4.0";
+			sourceTree = "<group>";
+		};
+		CD6EBAE11FC07C9E003D8B3F /* grokHTMLAndDownloads-htmlAndDownloads_4.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CD6EBAE21FC07C9E003D8B3F /* grokHTMLAndDownloads_htmlAndDownloads_4_0Tests.swift */,
+				CD6EBAE41FC07C9E003D8B3F /* Info.plist */,
+			);
+			path = "grokHTMLAndDownloads-htmlAndDownloads_4.0Tests";
+			sourceTree = "<group>";
+		};
+		CD6EBAEC1FC07C9E003D8B3F /* grokHTMLAndDownloads-htmlAndDownloads_4.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD6EBAED1FC07C9E003D8B3F /* grokHTMLAndDownloads_htmlAndDownloads_4_0UITests.swift */,
+				CD6EBAEF1FC07C9E003D8B3F /* Info.plist */,
+			);
+			path = "grokHTMLAndDownloads-htmlAndDownloads_4.0UITests";
+			sourceTree = "<group>";
+		};
+		DBD5F84FA325EF92F663AB1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6FE0A18D37DC00F6757168D /* Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0.debug.xcconfig */,
+				400A08A5A9F0CC1390767F43 /* Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0.release.xcconfig */,
+				49B75769718374C702585FE0 /* Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0Tests.debug.xcconfig */,
+				8190D95210430245C1B2A754 /* Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0Tests.release.xcconfig */,
+				4C4BD564849A7886E57CE1E3 /* Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0UITests.debug.xcconfig */,
+				41CCAB667ABA3811A8C02E46 /* Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD6EBAC91FC07C9E003D8B3F /* grokHTMLAndDownloads-htmlAndDownloads_4.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6EBAF21FC07C9E003D8B3F /* Build configuration list for PBXNativeTarget "grokHTMLAndDownloads-htmlAndDownloads_4.0" */;
+			buildPhases = (
+				5150C9C2D15128DF17AFCE72 /* [CP] Check Pods Manifest.lock */,
+				CD6EBAC61FC07C9E003D8B3F /* Sources */,
+				CD6EBAC71FC07C9E003D8B3F /* Frameworks */,
+				CD6EBAC81FC07C9E003D8B3F /* Resources */,
+				F3CD0B73FE21AC71CE8A5194 /* [CP] Embed Pods Frameworks */,
+				4F25107D79280DC13C5E129A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "grokHTMLAndDownloads-htmlAndDownloads_4.0";
+			productName = "grokHTMLAndDownloads-htmlAndDownloads_4.0";
+			productReference = CD6EBACA1FC07C9E003D8B3F /* grokHTMLAndDownloads-htmlAndDownloads_4.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD6EBADD1FC07C9E003D8B3F /* grokHTMLAndDownloads-htmlAndDownloads_4.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6EBAF51FC07C9E003D8B3F /* Build configuration list for PBXNativeTarget "grokHTMLAndDownloads-htmlAndDownloads_4.0Tests" */;
+			buildPhases = (
+				E5B42FE88A07673E268E0DD5 /* [CP] Check Pods Manifest.lock */,
+				CD6EBADA1FC07C9E003D8B3F /* Sources */,
+				CD6EBADB1FC07C9E003D8B3F /* Frameworks */,
+				CD6EBADC1FC07C9E003D8B3F /* Resources */,
+				E329D812233A493B14336D5D /* [CP] Embed Pods Frameworks */,
+				B76C1CB5CD7A899E663B7175 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD6EBAE01FC07C9E003D8B3F /* PBXTargetDependency */,
+			);
+			name = "grokHTMLAndDownloads-htmlAndDownloads_4.0Tests";
+			productName = "grokHTMLAndDownloads-htmlAndDownloads_4.0Tests";
+			productReference = CD6EBADE1FC07C9E003D8B3F /* grokHTMLAndDownloads-htmlAndDownloads_4.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD6EBAE81FC07C9E003D8B3F /* grokHTMLAndDownloads-htmlAndDownloads_4.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6EBAF81FC07C9E003D8B3F /* Build configuration list for PBXNativeTarget "grokHTMLAndDownloads-htmlAndDownloads_4.0UITests" */;
+			buildPhases = (
+				2B7B5B8748E98D50D0D0FD82 /* [CP] Check Pods Manifest.lock */,
+				CD6EBAE51FC07C9E003D8B3F /* Sources */,
+				CD6EBAE61FC07C9E003D8B3F /* Frameworks */,
+				CD6EBAE71FC07C9E003D8B3F /* Resources */,
+				9C8BC29702C1DE2FAA2D7B4B /* [CP] Embed Pods Frameworks */,
+				B1E23D517CAC77ED0C32A180 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD6EBAEB1FC07C9E003D8B3F /* PBXTargetDependency */,
+			);
+			name = "grokHTMLAndDownloads-htmlAndDownloads_4.0UITests";
+			productName = "grokHTMLAndDownloads-htmlAndDownloads_4.0UITests";
+			productReference = CD6EBAE91FC07C9E003D8B3F /* grokHTMLAndDownloads-htmlAndDownloads_4.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD6EBAC21FC07C9D003D8B3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = M4st3rZeus;
+				TargetAttributes = {
+					CD6EBAC91FC07C9E003D8B3F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					CD6EBADD1FC07C9E003D8B3F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD6EBAC91FC07C9E003D8B3F;
+					};
+					CD6EBAE81FC07C9E003D8B3F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD6EBAC91FC07C9E003D8B3F;
+					};
+				};
+			};
+			buildConfigurationList = CD6EBAC51FC07C9D003D8B3F /* Build configuration list for PBXProject "grokHTMLAndDownloads-htmlAndDownloads_4.0" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD6EBAC11FC07C9D003D8B3F;
+			productRefGroup = CD6EBACB1FC07C9E003D8B3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD6EBAC91FC07C9E003D8B3F /* grokHTMLAndDownloads-htmlAndDownloads_4.0 */,
+				CD6EBADD1FC07C9E003D8B3F /* grokHTMLAndDownloads-htmlAndDownloads_4.0Tests */,
+				CD6EBAE81FC07C9E003D8B3F /* grokHTMLAndDownloads-htmlAndDownloads_4.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD6EBAC81FC07C9E003D8B3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6EBAD81FC07C9E003D8B3F /* LaunchScreen.storyboard in Resources */,
+				CD6EBAD51FC07C9E003D8B3F /* Assets.xcassets in Resources */,
+				CD6EBAD31FC07C9E003D8B3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6EBADC1FC07C9E003D8B3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6EBAE71FC07C9E003D8B3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B7B5B8748E98D50D0D0FD82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F25107D79280DC13C5E129A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0/Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5150C9C2D15128DF17AFCE72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C8BC29702C1DE2FAA2D7B4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0UITests/Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1E23D517CAC77ED0C32A180 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0UITests/Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B76C1CB5CD7A899E663B7175 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0Tests/Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E329D812233A493B14336D5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0Tests/Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5B42FE88A07673E268E0DD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3CD0B73FE21AC71CE8A5194 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0/Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/HTMLReader/HTMLReader.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HTMLReader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0/Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD6EBAC61FC07C9E003D8B3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6EBB021FC0A19A003D8B3F /* ChartCell.swift in Sources */,
+				CD6EBB001FC0976C003D8B3F /* MasterViewController.swift in Sources */,
+				CD6EBAD01FC07C9E003D8B3F /* ViewController.swift in Sources */,
+				CD6EBAFE1FC07E5B003D8B3F /* DataController.swift in Sources */,
+				CD6EBACE1FC07C9E003D8B3F /* AppDelegate.swift in Sources */,
+				CD6EBAFC1FC07E4F003D8B3F /* Chart.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6EBADA1FC07C9E003D8B3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6EBAE31FC07C9E003D8B3F /* grokHTMLAndDownloads_htmlAndDownloads_4_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6EBAE51FC07C9E003D8B3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6EBAEE1FC07C9E003D8B3F /* grokHTMLAndDownloads_htmlAndDownloads_4_0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD6EBAE01FC07C9E003D8B3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD6EBAC91FC07C9E003D8B3F /* grokHTMLAndDownloads-htmlAndDownloads_4.0 */;
+			targetProxy = CD6EBADF1FC07C9E003D8B3F /* PBXContainerItemProxy */;
+		};
+		CD6EBAEB1FC07C9E003D8B3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD6EBAC91FC07C9E003D8B3F /* grokHTMLAndDownloads-htmlAndDownloads_4.0 */;
+			targetProxy = CD6EBAEA1FC07C9E003D8B3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD6EBAD11FC07C9E003D8B3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6EBAD21FC07C9E003D8B3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD6EBAD61FC07C9E003D8B3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6EBAD71FC07C9E003D8B3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD6EBAF01FC07C9E003D8B3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD6EBAF11FC07C9E003D8B3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD6EBAF31FC07C9E003D8B3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6FE0A18D37DC00F6757168D /* Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "grokHTMLAndDownloads-htmlAndDownloads_4.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "grokHTMLAndDownloadProgresss.grokHTMLAndDownloads-htmlAndDownloads-4-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD6EBAF41FC07C9E003D8B3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 400A08A5A9F0CC1390767F43 /* Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "grokHTMLAndDownloads-htmlAndDownloads_4.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "grokHTMLAndDownloadProgresss.grokHTMLAndDownloads-htmlAndDownloads-4-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD6EBAF61FC07C9E003D8B3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49B75769718374C702585FE0 /* Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "grokHTMLAndDownloads-htmlAndDownloads_4.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "grokHTMLAndDownloadProgresss.grokHTMLAndDownloads-htmlAndDownloads-4-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/grokHTMLAndDownloads-htmlAndDownloads_4.0.app/grokHTMLAndDownloads-htmlAndDownloads_4.0";
+			};
+			name = Debug;
+		};
+		CD6EBAF71FC07C9E003D8B3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8190D95210430245C1B2A754 /* Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "grokHTMLAndDownloads-htmlAndDownloads_4.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "grokHTMLAndDownloadProgresss.grokHTMLAndDownloads-htmlAndDownloads-4-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/grokHTMLAndDownloads-htmlAndDownloads_4.0.app/grokHTMLAndDownloads-htmlAndDownloads_4.0";
+			};
+			name = Release;
+		};
+		CD6EBAF91FC07C9E003D8B3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C4BD564849A7886E57CE1E3 /* Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "grokHTMLAndDownloads-htmlAndDownloads_4.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "grokHTMLAndDownloadProgresss.grokHTMLAndDownloads-htmlAndDownloads-4-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "grokHTMLAndDownloads-htmlAndDownloads_4.0";
+			};
+			name = Debug;
+		};
+		CD6EBAFA1FC07C9E003D8B3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41CCAB667ABA3811A8C02E46 /* Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "grokHTMLAndDownloads-htmlAndDownloads_4.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "grokHTMLAndDownloadProgresss.grokHTMLAndDownloads-htmlAndDownloads-4-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "grokHTMLAndDownloads-htmlAndDownloads_4.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD6EBAC51FC07C9D003D8B3F /* Build configuration list for PBXProject "grokHTMLAndDownloads-htmlAndDownloads_4.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6EBAF01FC07C9E003D8B3F /* Debug */,
+				CD6EBAF11FC07C9E003D8B3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6EBAF21FC07C9E003D8B3F /* Build configuration list for PBXNativeTarget "grokHTMLAndDownloads-htmlAndDownloads_4.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6EBAF31FC07C9E003D8B3F /* Debug */,
+				CD6EBAF41FC07C9E003D8B3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6EBAF51FC07C9E003D8B3F /* Build configuration list for PBXNativeTarget "grokHTMLAndDownloads-htmlAndDownloads_4.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6EBAF61FC07C9E003D8B3F /* Debug */,
+				CD6EBAF71FC07C9E003D8B3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6EBAF81FC07C9E003D8B3F /* Build configuration list for PBXNativeTarget "grokHTMLAndDownloads-htmlAndDownloads_4.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6EBAF91FC07C9E003D8B3F /* Debug */,
+				CD6EBAFA1FC07C9E003D8B3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD6EBAC21FC07C9D003D8B3F /* Project object */;
+}

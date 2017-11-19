@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13770" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yvy-Ab-fcl">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13770"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Master-->
+        <scene sceneID="rf0-qp-enM">
+            <objects>
+                <tableViewController title="Master" clearsSelectionOnViewWillAppear="NO" id="nXQ-Gg-DEr" customClass="MasterViewController" customModule="grokHTMLAndDownloads" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="LOR-qg-bK7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="Fbg-rN-vHx" customClass="ChartCell" customModule="grokHTMLAndDownloads_htmlAndDownloads_4_0" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="22" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Fbg-rN-vHx" id="Vf7-l5-naf">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kAC-xh-zWN">
+                                            <rect key="frame" x="16" y="0.0" width="343" height="26.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <progressView hidden="YES" opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Ido-m4-iTd">
+                                            <rect key="frame" x="16" y="31.5" width="343" height="2"/>
+                                        </progressView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Ido-m4-iTd" firstAttribute="leading" secondItem="Vf7-l5-naf" secondAttribute="leading" constant="16" id="eyo-Os-1xF"/>
+                                        <constraint firstItem="kAC-xh-zWN" firstAttribute="leading" secondItem="Vf7-l5-naf" secondAttribute="leading" constant="16" id="f1u-C3-rHB"/>
+                                        <constraint firstAttribute="trailing" secondItem="kAC-xh-zWN" secondAttribute="trailing" constant="16" id="fQH-no-Kjn"/>
+                                        <constraint firstAttribute="bottom" secondItem="Ido-m4-iTd" secondAttribute="bottom" constant="10" id="i2E-vI-L1Y"/>
+                                        <constraint firstItem="Ido-m4-iTd" firstAttribute="top" secondItem="kAC-xh-zWN" secondAttribute="bottom" constant="5" id="lXH-dN-OPW"/>
+                                        <constraint firstAttribute="trailing" secondItem="Ido-m4-iTd" secondAttribute="trailing" constant="16" id="r7P-WZ-t85"/>
+                                        <constraint firstItem="kAC-xh-zWN" firstAttribute="top" secondItem="Vf7-l5-naf" secondAttribute="top" id="sMR-Qr-HNe"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="progressBar" destination="Ido-m4-iTd" id="xVe-BM-Avq"/>
+                                    <outlet property="titleLabel" destination="kAC-xh-zWN" id="MVJ-cZ-Qtk"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="nXQ-Gg-DEr" id="fOR-OH-sMH"/>
+                            <outlet property="delegate" destination="nXQ-Gg-DEr" id="YaQ-FC-Ke7"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Master" id="8pt-9B-1fb"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t1d-MW-z5z" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2332" y="-630.13493253373315"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Xf6-wG-dOZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yvy-Ab-fcl" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MNA-RM-N1X">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="nXQ-Gg-DEr" kind="relationship" relationship="rootViewController" id="PhI-On-hkG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wzx-Eq-0Vf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1521" y="-630"/>
+        </scene>
+    </scenes>
+</document>

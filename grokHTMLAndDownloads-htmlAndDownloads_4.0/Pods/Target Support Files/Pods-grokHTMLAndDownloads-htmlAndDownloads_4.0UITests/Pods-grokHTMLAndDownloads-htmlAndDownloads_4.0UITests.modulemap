@@ -1,0 +1,6 @@
+framework module Pods_grokHTMLAndDownloads_htmlAndDownloads_4_0UITests {
+  umbrella header "Pods-grokHTMLAndDownloads-htmlAndDownloads_4.0UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
